@@ -4,11 +4,6 @@ import com.barbosa.extension_project.domain.entity.Pedido;
 import com.barbosa.extension_project.domain.enums.CanalPedido;
 import com.barbosa.extension_project.domain.enums.FormaPagamento;
 import com.barbosa.extension_project.domain.enums.StatusPedido;
-import com.raizes.domain.entity.ItemPedido;
-import com.raizes.domain.entity.Pedido;
-import com.raizes.domain.enums.CanalPedido;
-import com.raizes.domain.enums.FormaPagamento;
-import com.raizes.domain.enums.StatusPedido;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

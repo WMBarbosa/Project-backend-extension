@@ -1,8 +1,8 @@
 package com.barbosa.extension_project.application.dto.response;
 
+import com.barbosa.extension_project.domain.entity.Pagamento;
 import com.barbosa.extension_project.domain.enums.FormaPagamento;
 import com.barbosa.extension_project.domain.enums.StatusPagamento;
-import com.barbosa.extension_project.domain.enums.entity.Pagamento;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

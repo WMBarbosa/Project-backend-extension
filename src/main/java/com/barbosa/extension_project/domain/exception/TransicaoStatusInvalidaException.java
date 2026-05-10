@@ -1,6 +1,5 @@
 package com.barbosa.extension_project.domain.exception;
-
-import com.raizes.domain.enums.StatusPedido;
+import com.barbosa.extension_project.domain.enums.StatusPedido;
 
 public class TransicaoStatusInvalidaException extends RuntimeException {
     public TransicaoStatusInvalidaException(StatusPedido atual, StatusPedido destino) {

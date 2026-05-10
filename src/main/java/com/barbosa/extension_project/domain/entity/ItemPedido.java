@@ -40,7 +40,7 @@ public class ItemPedido {
 
     @PrePersist
     @PreUpdate
-    protected void calcularSubtotal() {
+    public void calcularSubtotal() {
         if (precoUnitario != null && quantidade != null) {
             this.subtotal = precoUnitario.multiply(BigDecimal.valueOf(quantidade));
         }
